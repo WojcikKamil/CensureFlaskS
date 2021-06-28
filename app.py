@@ -33,11 +33,13 @@ def censure_image():
     img_base64 = base64.b64encode(rawBytes.read())
     return jsonify({'status': str(img_base64)})
 
-
 @app.route('/')
+def censure():
+    return render_template('./censure.html')
+
+@app.route('/index')
 def home():
     return render_template('./index.html')
-
 
 @app.after_request
 def after_request(response):
