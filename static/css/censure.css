@@ -34,3 +34,6 @@
   a{
     color: goldenrod;
   }
+  body{
+    overflow: hidden;
+}
