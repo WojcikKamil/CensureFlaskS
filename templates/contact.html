@@ -1,0 +1,24 @@
+<html>
+{% include "navbar.html" %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="../static/css/contact.css">
+
+<body style="background-color: #282c34;">
+<h1>{{ title }}</h1>
+<div id="contact">
+    <br><br>
+    <h1>Censure Office</h1>
+    <h2>ul. Uposledzonych 6/9<br /></h2>
+    <h2>35-302, Rzeszów<br /></h2>
+    <h2>Podkarpackie Voivodeship, POLAND ~</h2>
+    <br>
+
+    <h3><strong>Support: </strong><a href="mailto:i@dont.care">i@dont.care</a><br /></h3>
+    <h3 id="contact-padding"><strong>Marketing: </strong><a href="mailto:titsfor@no.one">titsfor@no.one</a></h3>
+</div>
+</body>
+
+{% include "footer.html" %}
+{% endblock %}
+</html>

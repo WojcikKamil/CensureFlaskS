@@ -1,0 +1,32 @@
+<html>
+{% include "navbar.html" %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="../static/css/aboutus.css">
+
+<body style="background-color: #282c34;">
+<div class="about" id="lg">
+    <img class="img-circle" src="{{url_for('static',filename='images/Kamil.jpg')}}" alt="Responsive image">
+    <h1> Kamil Wójcik </h1>
+    <h2> team leader </h2>
+    <h2> full-stack / AI developer </h2>
+</div>
+<div class="about" id="pg">
+    <img class="img-circle" src="{{url_for('static',filename='images/Viper.jpg')}}" alt="Responsive image">
+    <h1> Kacper Żmijak </h1>
+    <h2> product owner </h2>
+    <h2> code reviewer </h2>
+</div>
+<div class="about" id="ld">
+    <img class="img-circle" src="{{url_for('static',filename='images/Mary.jpg')}}" alt="Responsive image">
+    <h1> Maria Urban </h1>
+    <h2> front-end developer </h2>
+</div>
+<div class="about" id="pd">
+    <img class="img-circle" src="{{url_for('static',filename='images/Rafau.jpg')}}" alt="Responsive image">
+    <h1> Rafał Czytajło </h1>
+    <h2> data-set </h2>
+</div>
+</body>
+{% include "footer.html" %}
+{% endblock %}
+</html>

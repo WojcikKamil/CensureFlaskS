@@ -1,0 +1,26 @@
+#navbar-button {
+    font-size: 15px;
+    padding: 10px;
+}
+
+#logo {
+    width: 130px;
+    height: 50px;
+}
+
+.not-visible {
+    display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}

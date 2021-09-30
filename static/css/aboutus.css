@@ -1,0 +1,23 @@
+.about {
+    width: 47%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    color: goldenrod;
+}
+
+.img-circle {
+    width: 160px;
+    height: 160px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+img {
+    border-radius: 100px;
+}
