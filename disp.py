@@ -70,6 +70,6 @@ class Disp:
             top_left = (x, y)
             bottom_right = (x + w, y + h)
             # draw the box
-            cv.rectangle(haystack_img, top_left, bottom_right, line_color, lineType=line_type)
+            cv.rectangle(haystack_img, top_left, bottom_right, line_color, lineType=line_type, thickness=-1)
 
         return haystack_img
