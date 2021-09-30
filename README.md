@@ -9,3 +9,6 @@
 <br>
 ## example of use
 ![Screenshot (906)](https://user-images.githubusercontent.com/60044272/135523172-f9fe66f7-189d-4bc0-b646-e6bba83f1257.png)
+<br>
+## link to the test material folder
+https://drive.google.com/drive/folders/1lBOhRpzL7AsLQxDTQ-X0QUWd-qPCdvja?usp=sharing
