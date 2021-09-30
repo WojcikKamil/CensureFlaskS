@@ -1,20 +1,11 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Censure!
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## starting page
+![Screenshot (901)](https://user-images.githubusercontent.com/60044272/135522877-cf2b0686-8bbd-40c9-a564-c7a79ae723b3.png)
+<br>
+## main page
+![Screenshot (904)](https://user-images.githubusercontent.com/60044272/135523083-6dfc7a8f-4629-48fb-ac23-5ec455f09277.png)
+<br>
+## example of use
+![Screenshot (906)](https://user-images.githubusercontent.com/60044272/135523172-f9fe66f7-189d-4bc0-b646-e6bba83f1257.png)
