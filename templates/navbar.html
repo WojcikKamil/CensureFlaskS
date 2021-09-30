@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="../static/css/navbar.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-static-top">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <a href="{{url_for('home') }}"><image id="logo" src="{{url_for('static',filename='images/logo.png')}}"></image></a>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="nav navbar-right">
+                    <li><a href="{{url_for('aboutus') }}" id="navbar-button" class="text-warning">About</a></li>
+                    <li><a href="{{url_for('contact') }}" id="navbar-button" class="text-warning">Contact</a></li>
+                </ul>
+            </form>
+        </div>
+    </nav>

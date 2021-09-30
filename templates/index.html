@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
+ {% include 'navbar.html' %}
+ {% block content %}
 <head>
 	<title>Censure</title>
 	<link rel="stylesheet" type="text/css" href="../static/css/index.css">
 	<script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  crossorigin="anonymous"></script>
+			  crossorigin="anonymous">
+    </script>
 	<script type="text/javascript" src="../static/index.js"></script>
 </head>
 <body>
 
 <div class='App'>
     <header class='App-header'>
-        <p><u>
-          Censure
-        </u></p>
-        <div className="pre_img">
-          <span><img id="imagebox" src=""></span>
+        <div class="pre_img">
+          <span><img id="imagebox" src="{{url_for('static',filename='images/cloud.png')}}"></span>
         </div>
         <form>
           <input id="imageinput" type="file" name="image" onchange="readUrl(this)">
@@ -24,5 +24,7 @@
 			<button name="send" id = "sendbutton">Send</button>
 	</header>
 </div>
+{% include 'footer.html' %}
+{% endblock %}
 </body>
 </html>
